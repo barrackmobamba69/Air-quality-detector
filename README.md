@@ -44,7 +44,6 @@ Run the script with Python 3:
       python3 airqualitydetector.py
 
 The system will start monitoring air quality parameters and:
-
 - Display readings in the console
 - Update LED indicators based on air quality
 - Trigger the buzzer for high temperature alerts
@@ -88,4 +87,24 @@ The system will start monitoring air quality parameters and:
   - 1001-1800 ppm: Good (Blue LED)
   - 1800 ppm: Unhealthy (Red LED)
 
+## Summary of Results
+- Performance: Testing revealed the system operates reliably and accurately in real-world conditions, providing robust insights into environmental data.
+- Data Insights: Comprehensive data collection from multiple sensors has given detailed insights into air quality, allowing for informed decision-making.
 
+## User Experience Improvements
+- Feedback Integration: User feedback led to enhancements in usability, including more intuitive features and improved interface design.
+- User Engagement: Streamlined navigation and clearer data visualization have significantly improved user satisfaction and engagement.
+
+## License
+This project is licensed under the MIT License.
+
+## From the Author
+
+- *LinkedIn*: [Udayy Singh Pawar](https://www.linkedin.com/in/udayy-singh-pawar/)
+- *GitHub*: [barrackmobamba69](https://github.com/barrackmobamba69)
+
+### Contributors
+- *LinkedIn*: [Sakshi Ojha](https://www.linkedin.com/in/sakshi-ojha-36b5b1224/)
+- *LinkedIn*: [Pankaj Bhusal](https://www.linkedin.com/in/pankaj-bhusal/)
+
+Feel free to reach out if you have any questions or suggestions!
