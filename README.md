@@ -37,6 +37,19 @@ The Air Quality Detector is a real-time environmental monitoring system built us
 python3 -m pip install RPi.GPIO adafruit-circuitpython-dht gpiozero pyserial requests
 4. Set up your ThingSpeak account and replace the `THINGSPEAK_API_KEY` in the `airqualitydetector.py` script with your API key.
 
+## Usage
+Ensure all sensors and LEDs are connected to the correct GPIO pins as per the Hardware Requirements section.
+Run the script with Python 3:
+
+      python3 airqualitydetector.py
+
+The system will start monitoring air quality parameters and:
+
+- Display readings in the console
+- Update LED indicators based on air quality
+- Trigger the buzzer for high temperature alerts
+- Send data to ThingSpeak every 30 seconds
+
 ## Implementation Details
 ### Connections
 - Gas Sensor: Connected via GPIO pin 12
@@ -65,3 +78,14 @@ python3 -m pip install RPi.GPIO adafruit-circuitpython-dht gpiozero pyserial req
 - Humidity
 - Gas presence
 - CO2 levels
+
+## Data Interpretation
+- Gas Sensor: Detects presence of gases (0: No gas, 1: Gas present)
+- Temperature: Measured in Celsius
+- Humidity: Measured as a percentage
+- CO2 Levels:
+  - ≤1000 ppm: Excellent (Green LED)
+  - 1001-1800 ppm: Good (Blue LED)
+  - 1800 ppm: Unhealthy (Red LED)
+
+
