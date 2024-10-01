@@ -1,4 +1,5 @@
 # Air-quality-detector
+![simage](https://github.com/user-attachments/assets/3bbf4c90-a665-4399-99d7-9e6a84f77b74)
 
 ## Overview
 The Air Quality Detector is a real-time environmental monitoring system built using a Raspberry Pi and various sensors to track air quality parameters, including gas presence, temperature, humidity, and CO2 concentration. The system collects and analyzes data in real-time and visualizes it on the ThingSpeak platform, allowing users to monitor environmental conditions remotely. Alerts via LEDs and buzzers are triggered when significant changes are detected, making it a reliable tool for both real-time monitoring and remote analysis.
@@ -72,6 +73,9 @@ The system will start monitoring air quality parameters and:
 ### Data Transmission
 - Data is uploaded to ThingSpeak periodically using HTTP POST requests through the ThingSpeak API.
 - Sensor data for gas levels, temperature, humidity, and CO2 concentration is mapped to specific fields in ThingSpeak.
+![1](https://github.com/user-attachments/assets/1719f008-8940-41db-89ae-f564109e44f7)
+![2](https://github.com/user-attachments/assets/5866b3cf-0013-4379-a2eb-5fe8f11ed97b)
+![3](https://github.com/user-attachments/assets/4ed23e0b-a5ee-4a4b-82c7-98099e8d2368)
 
 ## API Configuration
 - API Key: 0RH3YYBQLXAGHXHY (Channel is public)
