@@ -30,18 +30,21 @@ The Air Quality Detector is a real-time environmental monitoring system built us
 
 ## Installation
 1. Clone this repository:
-   
-        git clone https://github.com/yourusername/air-quality-detector.git
-   
-3. Install required Python packages:
-python3 -m pip install RPi.GPIO adafruit-circuitpython-dht gpiozero pyserial requests
-4. Set up your ThingSpeak account and replace the `THINGSPEAK_API_KEY` in the `airqualitydetector.py` script with your API key.
+   ```
+   git clone https://github.com/yourusername/air-quality-detector.git
+   ```
+2. Install required Python packages:
+   ```
+   pip install RPi.GPIO adafruit-circuitpython-dht gpiozero pyserial requests
+   ```
+3. Set up your ThingSpeak account and replace `THINGSPEAK_API_KEY` in the script with your API key.
 
 ## Usage
 Ensure all sensors and LEDs are connected to the correct GPIO pins as per the Hardware Requirements section.
 Run the script with Python 3:
-
-      python3 airqualitydetector.py
+```
+python3 airqualitydetector.py
+```
 
 The system will start monitoring air quality parameters and:
 - Display readings in the console
