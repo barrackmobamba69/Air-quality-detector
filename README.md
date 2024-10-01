@@ -33,7 +33,7 @@ The Air Quality Detector is a real-time environmental monitoring system built us
 ## Installation
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/air-quality-detector.git
+   git clone https://github.com/barrackmobamba69/Air-quality-detector
    ```
 2. Install required Python packages:
    ```
