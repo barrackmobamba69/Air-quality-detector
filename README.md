@@ -106,12 +106,9 @@ The system will start monitoring air quality parameters and:
 ## License
 This project is licensed under the MIT License.
 
-## From the Author
+## Contributors
 
 - *LinkedIn*: [Udayy Singh Pawar](https://www.linkedin.com/in/udayy-singh-pawar/)
-- *GitHub*: [barrackmobamba69](https://github.com/barrackmobamba69)
-
-### Contributors
 - *LinkedIn*: [Sakshi Ojha](https://www.linkedin.com/in/sakshi-ojha-36b5b1224/)
 - *LinkedIn*: [Pankaj Bhusal](https://www.linkedin.com/in/pankaj-bhusal/)
 
